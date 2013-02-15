@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Columnize Examples</title>
+		<meta property="og:title" content="Columnize Plugin, @promatik"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:image" content="http://promatik.no.sapo.pt/images/promatik.jpg"/>
+		<meta property="og:description" content="Columnize provides easy access to information in the URL, it also allows to programmatically modify the URL while user browse the page."/>
+		<meta property="og:url" content="http://promatik.no.sapo.pt/github/columnize/"/>
+		<meta property="fb:admins" content="100000258524385"/>
+		<meta property="fb:app_id" content="150154111693861"/>
+		
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="jquery.columnize.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="script.js"></script>
+		
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-26516943-3']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	
+	<body>
+	<div id="head-fix">
+		<div id="head">
+			<div id="btn-demo" class="menu-item">Demo</div>
+			<div id="btn-download" class="menu-item">Download</div>
+			<div id="btn-support" class="menu-item">Support</div>
+			<div id="btn-author" class="menu-item">Toni Almeida, @promatik</div>
+		</div>
+	</div>
+	
+	<div id="demo" class="content">
+		<h1>jQuery Columnize <span class="function">Demo</span></h1>
+		
+		<div class="separator">&nbsp;</div>
+		<h2>$().columnize()</h2>
+		<div class="code">
+			<span class="function">$(<span class="string">'.lorem-ipsum'</span>).columnize({</span>
+			<div class="margin function">width:<span class="string">210</span>,</div>
+			<div class="margin function">height:<span class="string">300</span></div>
+			<span class="function">});</span>
+		</div>
+		<p class="description">This function columnize the element selected and return an Int with the number of columns generated.</p>
+		<button id="action-columnize" class="btn" style="margin: 0px;">Click to columnize this</button>
+		<div class="lorem-ipsum">
+	        <p class="title">
+	            Lorem ipsum dolor sit amet
+	        </p>
+	        <p class="subtitle">
+	            15 Februarii 2013
+	        </p>
+	        <p>
+	            Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip
+				ex ea commodo consequat
+	        </p>
+	        <p>
+	            Duis aute irure dolor in reprehenderit in voluptate
+				velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt
+				in culpa qui officia deserunt mollit anim id est laborum.
+	        </p>
+	        <p>
+	            Sed ut perspiciatis unde omnis iste natus error sit
+				voluptatem accusantium doloremque laudantium, totam
+				rem aperiam, eaque ipsa quae ab illo inventore veritatis
+				et quasi architecto beatae vitae dicta sunt explicabo.
+				Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+				aut odit aut fugit, sed quia consequuntur magni dolores
+				eos qui ratione voluptatem sequi nesciunt. Neque porro
+				quisquam est, qui dolorem ipsum quia dolor sit amet,
+				consectetur, adipisci velit, sed quia non numquam eius
+				modi tempora incidunt ut labore et dolore magnam aliquam
+				quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+				exercitationem ullam corporis suscipit laboriosam, nisi ut
+				aliquid ex ea commodi consequatur?
+	        </p>
+	        <p>
+	            Quis autem vel eum iure
+				reprehenderit qui in ea voluptate velit esse quam nihil
+				molestiae consequatur, vel illum qui dolorem eum fugiat
+				quo voluptas nulla pariatur? Quis autem vel eum iure
+				reprehenderit qui in ea voluptate velit esse quam nihil
+				molestiae consequatur, vel illum qui dolorem eum fugiat
+				quo voluptas nulla pariatur?
+	        </p>
+	    </div>
+
+		<div class="separator">&nbsp;</div>
+		<h2>$().columnize(<span class="string">'getColumns'</span>)</h2>
+		<div class="code">
+			<span class="function">$(<span class="string">'.lorem-ipsum'</span>).columnize(<span class="string">'getColumns'</span>, {</span>
+			<div class="margin function">width:<span class="string">210</span>,</div>
+			<div class="margin function">height:<span class="string">300</span></div>
+			<span class="function">});</span>
+		</div>
+		<p class="description">This function returns the number of columns that text will fill after "columnize".</p>
+		<button id="action-getColumns" class="btn" style="margin: 0px 0px 15px;">Click to run this</button>
+	</div>
+	
+	<div id="download" class="content">
+		<h1>jQuery Columnize <span class="function">Download</span></h1>
+		
+		<p>It's highly recommended to download the plugin from GitHub, because it's always updated there!</p>
+		
+		<p>Here is the link to GitHub: <a target="_blank" href="https://github.com/promatik/jQuery-Columnize">https://github.com/promatik/jQuery-Columnize</a></p>
+	</div>
+	
+	<div id="support" class="content">
+		<h1>jQuery Columnize <span class="function">Support</span></h1>
+		
+		<p>Support requests and general discussions about the Columnize plugin can be posted in the <a target="_blank" href="https://groups.google.com/forum/#!forum/jQuery-Columnize">official forum</a>.</p>
+		<p>If your question is not directly related to the Columnize plugin, you might have a better chance to get a reply by posting to Stack Overflow. Bugs and Feature requests can be reported using the issues tracker at GitHub.</p>
+	</div>
+	
+	</body>
+</html>
+
