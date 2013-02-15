@@ -5,7 +5,7 @@ Columnize allows you to split any text into equal size columns.
 It will columnize &lt;p&gt;'s wrapped in &lt;div&gt;'s
 
 ## Demo
-[Demo Columnize](http://promatik.no.sapo.pt/github/jquery-columnize/)
+[Demo Columnize](http://promatik.no.sapo.pt/github/columnize/)
 
 ## Download
 * [Master branch](https://github.com/promatik/jquery-columnize/archive/master.zip)
