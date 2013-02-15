@@ -2,7 +2,7 @@
 
 ## Description
 Columnize allows you to split any text into equal size columns.
-It will columnize <p>\'s wrapped in div\'s
+It will columnize &lt;p&gt;'s wrapped in &lt;div&gt;'s
 
 ## Demo
 [Demo Columnize](http://promatik.no.sapo.pt/github/jquery-columnize/)
@@ -24,6 +24,15 @@ It will columnize <p>\'s wrapped in div\'s
 	float:left;
 	margin: 20px 5px;
 }
+```
+
+* Easy to use, just call columnize with the sizes you want, i.e:
+
+```javascript
+$('.lorem-ipsum').columnize({
+	width:210,
+	height:300
+});
 ```
 
 ## Support
